@@ -1,0 +1,26 @@
+@import "./bootstrap-5.3.3/scss/functions";
+@import "./bootstrap-5.3.3/scss/variables";
+header h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+$font-sizes: map-merge(
+  $font-sizes,
+  (
+    7: 0.75rem,
+    8: 0.625rem,
+    9: 0.5rem,
+    10: 0.375rem,
+  )
+);
+
+$border-widths: map-merge(
+  $border-widths,
+  (
+    6: 6px,
+    7: 7px,
+    8: 8px,
+    9: 9px,
+    10: 10px,
+  )
+);
